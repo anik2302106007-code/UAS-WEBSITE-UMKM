@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>UMKM Rasa Lokal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">UMKM Rasa Lokal</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="home">
+    <div class="home-content">
+        <h1>Selamat Datang di UMKM Rasa Lokal</h1>
+        <p>Menyediakan makanan olahan rumahan dengan rasa khas dan kualitas terbaik.</p>
+        <a href="#product" class="btn">Lihat Produk</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>Tentang Kami</h2>
+    <p>
+        UMKM Rasa Lokal adalah usaha makanan rumahan yang fokus pada cita rasa,
+        kebersihan, dan kualitas produk untuk kepuasan pelanggan.
+    </p>
+
+    <div class="visi-misi">
+        <div>
+            <h3>Visi</h3>
+            <p>Menjadi UMKM makanan lokal yang dikenal dan dipercaya masyarakat.</p>
+        </div>
+        <div>
+            <h3>Misi</h3>
+            <ul>
+                <li>Menyediakan produk berkualitas</li>
+                <li>Menjaga kepuasan pelanggan</li>
+                <li>Mengembangkan usaha secara berkelanjutan</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- PRODUCT -->
+<section id="product" class="product">
+    <h2>Produk Kami</h2>
+    <div class="product-list" id="product-list"></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Hubungi Kami</h2>
+    <form onsubmit="return validateForm()">
+        <input type="text" id="nama" placeholder="Nama Anda">
+        <textarea id="pesan" placeholder="Pesan Anda"></textarea>
+        <button type="submit">Kirim Pesan</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 UMKM Rasa Lokal</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
